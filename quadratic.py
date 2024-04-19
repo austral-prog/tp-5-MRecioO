@@ -26,7 +26,7 @@ def to_string(a, b, c):
                 f_de_x_cuadratica_str = (f"f(x) = {a} * X^2 + {b} * X + {c}")
                 return f_de_x_cuadratica_str
 
-def derivation(a, b):
+def derivation(a, b, c):
     if (a == 0) and ( b == 0):
         dx_f_constante = ((f"f'(x) = 0"))
         return dx_f_constante
